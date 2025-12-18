@@ -108,6 +108,3 @@ Deployment on real-time traffic control systems
 SUMO Traffic Simulator
 Reinforcement Learning research community
 
-👤 Author
-
-Shivam Chaudhary
