@@ -1,0 +1,18 @@
+<configuration>
+    <input>
+    <net-file value="my.net.xml"/>
+    <route-files value="myroutes.rou.xml"/>
+    <additional-files value="mytls.add.xml"/>
+</input>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+
+    </time>
+  <gui_only>
+    <delay value="100"/>
+</gui_only>
+
+</configuration>
+

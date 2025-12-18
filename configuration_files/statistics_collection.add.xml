@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+<!-- 
+    This output writer collects overall simulation statistics, 
+    including average speed and travel time.
+-->
+
+<!-- Detectors -->
+    <laneAreaDetector id="node1_2_eb_0" lane="node1_2_eb_0" pos="79.65" length="30.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="node1_2_eb_1" lane="node1_2_eb_1" pos="80.78" length="30.00" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="node1_2_eb_2" lane="node1_2_eb_2" pos="80.34" length="30.00" period="300.00" file="e2_2.xml"/>
+    <laneAreaDetector id="node2_7_sb_0" lane="node2_7_sb_0" pos="43.05" length="20.00" period="300.00" file="e2_10.xml"/>
+    <laneAreaDetector id="node2_7_sb_1" lane="node2_7_sb_1" pos="43.49" length="20.00" period="300.00" file="e2_3.xml"/>
+    <laneAreaDetector id="node2_7_sb_2" lane="node2_7_sb_2" pos="43.27" length="20.00" period="300.00" file="e2_4.xml"/>
+<summary-output file="summary.xml"/>
+
+<!-- 
+    This output writer creates a record for every vehicle's trip. 
+    It's essential for calculating average travel time and average waiting time.
+-->
+<tripinfo-output file="tripinfo.xml"/>
+
+<!-- 
+    This output writer records the queue length at various points in time.
+    This is perfect for plotting and calculating the average queue length.
+-->
+<queue-output file="queue.xml"/>
+
+<!-- 
+    This output writer records emissions and fuel consumption data for each vehicle.
+    This can be used to compare the environmental impact of both traffic management methods.
+-->
+<emission-output file="emission.xml"/>
+
+</additional>

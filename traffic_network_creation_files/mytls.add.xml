@@ -1,0 +1,7 @@
+<additional>
+    <tlLogic id="n1" type="static" programID="tl1" offset="0">
+        <phase duration="30" state="Gr"/> <!-- Green for e0, Red for e1 -->
+        <phase duration="30" state="rG"/> <!-- Red for e0, Green for e1 -->
+    </tlLogic>
+</additional>
+

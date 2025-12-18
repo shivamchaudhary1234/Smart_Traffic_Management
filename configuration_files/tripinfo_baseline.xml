@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-25 18:07:43 by Eclipse SUMO GUI Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/happy/sumo_projects/test/rl.net.xml"/>
+        <route-files value="/home/happy/sumo_projects/test/rl.rou.xml"/>
+        <additional-files value="/home/happy/sumo_projects/test/rl.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/home/happy/sumo_projects/test/emission_baseline.xml"/>
+        <queue-output value="/home/happy/sumo_projects/test/queue_baseline.xml"/>
+        <summary-output value="/home/happy/sumo_projects/test/summary_baseline.xml"/>
+        <tripinfo-output value="/home/happy/sumo_projects/test/tripinfo_baseline.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.10"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="50415"/>
+    </traci_server>
+
+    <gui_only>
+        <delay value="100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="flow_west_to_north.0" depart="0.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="29.10" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.93" duration="29.10" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.60" rerouteNo="1" devices="tripinfo_flow_west_to_north.0 routing_flow_west_to_north.0 emissions_flow_west_to_north.0" vType="DEFAULT_VEHTYPE" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="643.62" CO2_abs="104129.53" HC_abs="4.28" PMx_abs="8.46" NOx_abs="34.57" fuel_abs="33757.15" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.0" depart="0.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="40.80" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.00" duration="40.80" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.38" rerouteNo="1" devices="tripinfo_flow_west_to_south.0 routing_flow_west_to_south.0 emissions_flow_west_to_south.0" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="845.11" CO2_abs="148455.25" HC_abs="5.60" PMx_abs="9.93" NOx_abs="47.84" fuel_abs="48126.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.1" depart="10.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="43.30" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="12.19" duration="33.30" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.67" rerouteNo="1" devices="tripinfo_flow_west_to_north.1 routing_flow_west_to_north.1 emissions_flow_west_to_north.1" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="421.69" CO2_abs="92353.56" HC_abs="2.81" PMx_abs="7.68" NOx_abs="29.85" fuel_abs="29939.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.2" depart="20.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="50.00" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.19" duration="30.00" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.24" rerouteNo="1" devices="tripinfo_flow_west_to_north.2 routing_flow_west_to_north.2 emissions_flow_west_to_north.2" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="588.58" CO2_abs="101146.36" HC_abs="3.91" PMx_abs="8.22" NOx_abs="33.27" fuel_abs="32790.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.1" depart="10.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="50.20" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.49" duration="40.20" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.71" rerouteNo="1" devices="tripinfo_flow_west_to_south.1 routing_flow_west_to_south.1 emissions_flow_west_to_south.1" vType="DEFAULT_VEHTYPE" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="923.92" CO2_abs="153994.93" HC_abs="6.12" PMx_abs="10.22" NOx_abs="49.89" fuel_abs="49922.63" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.0" depart="0.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="57.50" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="14.68" duration="57.50" routeLength="197.42" waitingTime="35.60" waitingCount="1" stopTime="0.00" timeLoss="43.53" rerouteNo="0" devices="tripinfo_flow_south_to_east.0 routing_flow_south_to_east.0 emissions_flow_south_to_east.0" vType="DEFAULT_VEHTYPE" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="441.02" CO2_abs="140572.21" HC_abs="2.92" PMx_abs="5.20" NOx_abs="48.48" fuel_abs="45571.64" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.2" depart="20.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="59.50" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.91" duration="39.50" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.02" rerouteNo="1" devices="tripinfo_flow_west_to_south.2 routing_flow_west_to_south.2 emissions_flow_west_to_south.2" vType="DEFAULT_VEHTYPE" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="994.11" CO2_abs="159208.78" HC_abs="6.58" PMx_abs="10.57" NOx_abs="52.02" fuel_abs="51612.87" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.3" depart="30.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="62.40" arrivalLane="node3_6_sw_0" arrivalPos="89.77" arrivalSpeed="12.86" duration="32.40" routeLength="337.33" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.64" rerouteNo="1" devices="tripinfo_flow_west_to_north.3 routing_flow_west_to_north.3 emissions_flow_west_to_north.3" vType="DEFAULT_VEHTYPE" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="469.04" CO2_abs="97225.94" HC_abs="3.12" PMx_abs="7.79" NOx_abs="31.24" fuel_abs="31519.12" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.1" depart="5.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="67.30" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.29" duration="62.30" routeLength="300.86" waitingTime="30.50" waitingCount="1" stopTime="0.00" timeLoss="40.55" rerouteNo="1" devices="tripinfo_flow_south_to_west.1 routing_flow_south_to_west.1 emissions_flow_south_to_west.1" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="633.63" CO2_abs="164891.40" HC_abs="4.20" PMx_abs="7.44" NOx_abs="56.00" fuel_abs="53455.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.0" depart="0.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="68.40" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.99" duration="68.40" routeLength="295.61" waitingTime="35.70" waitingCount="1" stopTime="0.00" timeLoss="44.91" rerouteNo="1" devices="tripinfo_flow_south_to_west.0 routing_flow_south_to_west.0 emissions_flow_south_to_west.0" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="549.33" CO2_abs="168456.09" HC_abs="3.64" PMx_abs="7.12" NOx_abs="57.31" fuel_abs="54611.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.1" depart="50.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="69.30" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="13.92" duration="19.30" routeLength="197.42" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.64" rerouteNo="0" devices="tripinfo_flow_south_to_east.1 routing_flow_south_to_east.1 emissions_flow_south_to_east.1" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="406.26" CO2_abs="74649.78" HC_abs="2.69" PMx_abs="4.98" NOx_abs="23.74" fuel_abs="24200.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.3" depart="15.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="69.90" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="12.98" duration="54.90" routeLength="306.10" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="30.61" rerouteNo="1" devices="tripinfo_flow_south_to_west.3 routing_flow_south_to_west.3 emissions_flow_south_to_west.3" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="495.25" CO2_abs="136306.82" HC_abs="3.28" PMx_abs="6.91" NOx_abs="45.09" fuel_abs="44188.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.6" depart="30.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="71.40" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="14.98" duration="41.40" routeLength="306.10" waitingTime="4.10" waitingCount="1" stopTime="0.00" timeLoss="20.33" rerouteNo="1" devices="tripinfo_flow_south_to_west.6 routing_flow_south_to_west.6 emissions_flow_south_to_west.6" vType="DEFAULT_VEHTYPE" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="572.04" CO2_abs="122820.04" HC_abs="3.79" PMx_abs="7.09" NOx_abs="39.28" fuel_abs="39816.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.3" depart="30.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="71.40" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="13.65" duration="41.40" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.28" rerouteNo="1" devices="tripinfo_flow_west_to_south.3 routing_flow_west_to_south.3 emissions_flow_west_to_south.3" vType="DEFAULT_VEHTYPE" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="818.76" CO2_abs="147717.06" HC_abs="5.42" PMx_abs="9.94" NOx_abs="47.45" fuel_abs="47887.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.4" depart="20.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="71.60" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="11.84" duration="51.60" routeLength="300.86" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="25.42" rerouteNo="1" devices="tripinfo_flow_south_to_west.4 routing_flow_south_to_west.4 emissions_flow_south_to_west.4" vType="DEFAULT_VEHTYPE" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="409.98" CO2_abs="123368.83" HC_abs="2.72" PMx_abs="6.48" NOx_abs="40.05" fuel_abs="39994.34" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.2" depart="10.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="72.30" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="11.52" duration="62.30" routeLength="295.61" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="35.75" rerouteNo="1" devices="tripinfo_flow_south_to_west.2 routing_flow_south_to_west.2 emissions_flow_south_to_west.2" vType="DEFAULT_VEHTYPE" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="383.44" CO2_abs="138074.15" HC_abs="2.54" PMx_abs="6.41" NOx_abs="45.83" fuel_abs="44761.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.9" depart="45.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="73.50" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="14.12" duration="28.50" routeLength="306.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.13" rerouteNo="1" devices="tripinfo_flow_south_to_west.9 routing_flow_south_to_west.9 emissions_flow_south_to_west.9" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="524.59" CO2_abs="94878.18" HC_abs="3.48" PMx_abs="7.07" NOx_abs="30.79" fuel_abs="30757.98" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.7" depart="35.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="73.70" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="12.19" duration="38.70" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.12" rerouteNo="1" devices="tripinfo_flow_south_to_west.7 routing_flow_south_to_west.7 emissions_flow_south_to_west.7" vType="DEFAULT_VEHTYPE" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="403.76" CO2_abs="102295.32" HC_abs="2.67" PMx_abs="6.33" NOx_abs="31.60" fuel_abs="33162.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.5" depart="25.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="73.80" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.44" duration="48.80" routeLength="295.61" waitingTime="9.20" waitingCount="1" stopTime="0.00" timeLoss="27.68" rerouteNo="1" devices="tripinfo_flow_south_to_west.5 routing_flow_south_to_west.5 emissions_flow_south_to_west.5" vType="DEFAULT_VEHTYPE" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="458.10" CO2_abs="122553.71" HC_abs="3.03" PMx_abs="6.42" NOx_abs="39.54" fuel_abs="39730.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.8" depart="40.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="75.30" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.05" duration="35.30" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.43" rerouteNo="1" devices="tripinfo_flow_south_to_west.8 routing_flow_south_to_west.8 emissions_flow_south_to_west.8" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="410.16" CO2_abs="96462.63" HC_abs="2.72" PMx_abs="6.26" NOx_abs="30.08" fuel_abs="31271.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.10" depart="50.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="78.00" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.54" duration="28.00" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.89" rerouteNo="1" devices="tripinfo_flow_south_to_west.10 routing_flow_south_to_west.10 emissions_flow_south_to_west.10" vType="DEFAULT_VEHTYPE" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="466.59" CO2_abs="86981.36" HC_abs="3.10" PMx_abs="6.58" NOx_abs="28.11" fuel_abs="28197.96" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.11" depart="55.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="84.70" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.00" duration="29.70" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.45" rerouteNo="1" devices="tripinfo_flow_south_to_west.11 routing_flow_south_to_west.11 emissions_flow_south_to_west.11" vType="DEFAULT_VEHTYPE" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="369.92" CO2_abs="84947.56" HC_abs="2.46" PMx_abs="6.84" NOx_abs="27.13" fuel_abs="27538.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.12" depart="60.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="88.80" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.69" duration="28.80" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.34" rerouteNo="1" devices="tripinfo_flow_south_to_west.12 routing_flow_south_to_west.12 emissions_flow_south_to_west.12" vType="DEFAULT_VEHTYPE" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="417.92" CO2_abs="86122.38" HC_abs="2.78" PMx_abs="6.82" NOx_abs="27.73" fuel_abs="27919.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.13" depart="65.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="93.50" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.84" duration="28.50" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.85" rerouteNo="1" devices="tripinfo_flow_south_to_west.13 routing_flow_south_to_west.13 emissions_flow_south_to_west.13" vType="DEFAULT_VEHTYPE" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="440.84" CO2_abs="88342.76" HC_abs="2.93" PMx_abs="6.68" NOx_abs="28.31" fuel_abs="28639.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.14" depart="70.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="95.80" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="15.00" duration="25.80" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.18" rerouteNo="1" devices="tripinfo_flow_south_to_west.14 routing_flow_south_to_west.14 emissions_flow_south_to_west.14" vType="DEFAULT_VEHTYPE" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="613.54" CO2_abs="98327.99" HC_abs="4.07" PMx_abs="7.49" NOx_abs="32.33" fuel_abs="31876.33" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.15" depart="75.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="100.70" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.89" duration="25.70" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.41" rerouteNo="1" devices="tripinfo_flow_south_to_west.15 routing_flow_south_to_west.15 emissions_flow_south_to_west.15" vType="DEFAULT_VEHTYPE" speedFactor="1.17" vaporized="">
+        <emissions CO_abs="597.00" CO2_abs="97071.40" HC_abs="3.97" PMx_abs="7.46" NOx_abs="31.84" fuel_abs="31468.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.16" depart="80.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="107.30" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.76" duration="27.30" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.77" rerouteNo="1" devices="tripinfo_flow_south_to_west.16 routing_flow_south_to_west.16 emissions_flow_south_to_west.16" vType="DEFAULT_VEHTYPE" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="504.29" CO2_abs="92302.37" HC_abs="3.35" PMx_abs="7.38" NOx_abs="30.03" fuel_abs="29922.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.4" depart="40.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="111.50" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.98" duration="71.50" routeLength="342.46" waitingTime="37.50" waitingCount="1" stopTime="0.00" timeLoss="48.03" rerouteNo="1" devices="tripinfo_flow_west_to_north.4 routing_flow_west_to_north.4 emissions_flow_west_to_north.4" vType="DEFAULT_VEHTYPE" speedFactor="1.16" vaporized="">
+        <emissions CO_abs="809.37" CO2_abs="190847.37" HC_abs="5.36" PMx_abs="8.41" NOx_abs="65.96" fuel_abs="61870.08" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.7" depart="70.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="114.60" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="13.84" duration="44.60" routeLength="342.46" waitingTime="4.60" waitingCount="1" stopTime="0.00" timeLoss="19.38" rerouteNo="1" devices="tripinfo_flow_west_to_north.7 routing_flow_west_to_north.7 emissions_flow_west_to_north.7" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="656.31" CO2_abs="133368.56" HC_abs="4.34" PMx_abs="7.73" NOx_abs="42.98" fuel_abs="43235.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.5" depart="50.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="115.60" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="11.38" duration="65.60" routeLength="347.59" waitingTime="26.30" waitingCount="1" stopTime="0.00" timeLoss="34.38" rerouteNo="1" devices="tripinfo_flow_west_to_north.5 routing_flow_west_to_north.5 emissions_flow_west_to_north.5" vType="DEFAULT_VEHTYPE" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="460.36" CO2_abs="152790.86" HC_abs="3.05" PMx_abs="7.64" NOx_abs="51.11" fuel_abs="49532.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.6" depart="60.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="116.90" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="14.92" duration="56.90" routeLength="347.59" waitingTime="14.70" waitingCount="1" stopTime="0.00" timeLoss="33.03" rerouteNo="1" devices="tripinfo_flow_west_to_north.6 routing_flow_west_to_north.6 emissions_flow_west_to_north.6" vType="DEFAULT_VEHTYPE" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="627.05" CO2_abs="148013.49" HC_abs="4.15" PMx_abs="7.81" NOx_abs="49.12" fuel_abs="47983.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.8" depart="80.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="118.70" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="13.52" duration="38.70" routeLength="347.59" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.19" rerouteNo="1" devices="tripinfo_flow_west_to_north.8 routing_flow_west_to_north.8 emissions_flow_west_to_north.8" vType="DEFAULT_VEHTYPE" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="521.65" CO2_abs="111462.14" HC_abs="3.46" PMx_abs="7.63" NOx_abs="35.51" fuel_abs="36134.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.9" depart="90.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="119.70" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.27" duration="29.70" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.10" rerouteNo="1" devices="tripinfo_flow_west_to_north.9 routing_flow_west_to_north.9 emissions_flow_west_to_north.9" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="578.84" CO2_abs="99786.06" HC_abs="3.85" PMx_abs="8.21" NOx_abs="32.79" fuel_abs="32349.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.4" depart="40.80" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.80" arrival="122.30" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="12.99" duration="81.50" routeLength="415.27" waitingTime="36.40" waitingCount="1" stopTime="0.00" timeLoss="47.49" rerouteNo="1" devices="tripinfo_flow_west_to_south.4 routing_flow_west_to_south.4 emissions_flow_west_to_south.4" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="734.71" CO2_abs="205640.00" HC_abs="4.87" PMx_abs="9.58" NOx_abs="69.22" fuel_abs="66665.64" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.7" depart="71.40" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="1.40" arrival="124.70" arrivalLane="node1_4_nw_2" arrivalPos="90.19" arrivalSpeed="14.98" duration="53.30" routeLength="436.07" waitingTime="5.10" waitingCount="1" stopTime="0.00" timeLoss="22.51" rerouteNo="1" devices="tripinfo_flow_west_to_south.7 routing_flow_west_to_south.7 emissions_flow_west_to_south.7" vType="DEFAULT_VEHTYPE" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="953.84" CO2_abs="172410.73" HC_abs="6.32" PMx_abs="10.49" NOx_abs="56.70" fuel_abs="55892.81" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.5" depart="50.20" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.20" arrival="125.60" arrivalLane="node1_4_nw_1" arrivalPos="90.19" arrivalSpeed="12.34" duration="75.40" routeLength="425.67" waitingTime="24.10" waitingCount="1" stopTime="0.00" timeLoss="38.48" rerouteNo="1" devices="tripinfo_flow_west_to_south.5 routing_flow_west_to_south.5 emissions_flow_west_to_south.5" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="649.70" CO2_abs="183014.09" HC_abs="4.30" PMx_abs="9.46" NOx_abs="60.81" fuel_abs="59330.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.6" depart="60.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="126.50" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="13.05" duration="66.50" routeLength="415.27" waitingTime="15.40" waitingCount="1" stopTime="0.00" timeLoss="32.89" rerouteNo="1" devices="tripinfo_flow_west_to_south.6 routing_flow_west_to_south.6 emissions_flow_west_to_south.6" vType="DEFAULT_VEHTYPE" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="739.39" CO2_abs="177649.55" HC_abs="4.89" PMx_abs="9.01" NOx_abs="57.87" fuel_abs="57591.27" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.8" depart="80.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="128.70" arrivalLane="node1_4_nw_1" arrivalPos="90.19" arrivalSpeed="14.11" duration="48.70" routeLength="425.67" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.37" rerouteNo="1" devices="tripinfo_flow_west_to_south.8 routing_flow_west_to_south.8 emissions_flow_west_to_south.8" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="818.00" CO2_abs="156094.49" HC_abs="5.41" PMx_abs="9.50" NOx_abs="49.81" fuel_abs="50603.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.10" depart="100.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="128.80" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="14.95" duration="28.80" routeLength="347.59" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.95" rerouteNo="1" devices="tripinfo_flow_west_to_north.10 routing_flow_west_to_north.10 emissions_flow_west_to_north.10" vType="DEFAULT_VEHTYPE" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="637.80" CO2_abs="101196.72" HC_abs="4.24" PMx_abs="8.46" NOx_abs="33.81" fuel_abs="32806.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.9" depart="90.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="134.00" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="12.50" duration="44.00" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.62" rerouteNo="1" devices="tripinfo_flow_west_to_south.9 routing_flow_west_to_south.9 emissions_flow_west_to_south.9" vType="DEFAULT_VEHTYPE" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="661.13" CO2_abs="136023.87" HC_abs="4.38" PMx_abs="9.05" NOx_abs="42.98" fuel_abs="44096.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.10" depart="100.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="140.30" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.47" duration="40.30" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.82" rerouteNo="1" devices="tripinfo_flow_west_to_south.10 routing_flow_west_to_south.10 emissions_flow_west_to_south.10" vType="DEFAULT_VEHTYPE" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="923.99" CO2_abs="153847.69" HC_abs="6.12" PMx_abs="10.16" NOx_abs="49.87" fuel_abs="49874.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.11" depart="110.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="144.40" arrivalLane="node3_6_sw_0" arrivalPos="89.77" arrivalSpeed="11.70" duration="34.40" routeLength="337.33" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.27" rerouteNo="1" devices="tripinfo_flow_west_to_north.11 routing_flow_west_to_north.11 emissions_flow_west_to_north.11" vType="DEFAULT_VEHTYPE" speedFactor="0.85" vaporized="">
+        <emissions CO_abs="396.61" CO2_abs="92899.28" HC_abs="2.64" PMx_abs="7.38" NOx_abs="29.59" fuel_abs="30116.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.12" depart="120.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="148.50" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="14.99" duration="28.50" routeLength="347.59" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.67" rerouteNo="1" devices="tripinfo_flow_west_to_north.12 routing_flow_west_to_north.12 emissions_flow_west_to_north.12" vType="DEFAULT_VEHTYPE" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="644.16" CO2_abs="101197.91" HC_abs="4.28" PMx_abs="8.50" NOx_abs="33.79" fuel_abs="32806.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.2" depart="100.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="148.80" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="14.94" duration="48.80" routeLength="197.42" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="35.11" rerouteNo="0" devices="tripinfo_flow_south_to_east.2 routing_flow_south_to_east.2 emissions_flow_south_to_east.2" vType="DEFAULT_VEHTYPE" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="401.44" CO2_abs="118602.36" HC_abs="2.66" PMx_abs="4.87" NOx_abs="40.07" fuel_abs="38449.22" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.11" depart="110.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="154.50" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="12.15" duration="44.50" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.18" rerouteNo="1" devices="tripinfo_flow_west_to_south.11 routing_flow_west_to_south.11 emissions_flow_west_to_south.11" vType="DEFAULT_VEHTYPE" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="623.21" CO2_abs="134853.72" HC_abs="4.13" PMx_abs="9.31" NOx_abs="42.62" fuel_abs="43717.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.17" depart="85.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="156.70" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.91" duration="71.70" routeLength="295.61" waitingTime="40.80" waitingCount="1" stopTime="0.00" timeLoss="51.41" rerouteNo="1" devices="tripinfo_flow_south_to_west.17 routing_flow_south_to_west.17 emissions_flow_south_to_west.17" vType="DEFAULT_VEHTYPE" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="703.19" CO2_abs="185104.41" HC_abs="4.65" PMx_abs="7.37" NOx_abs="63.87" fuel_abs="60008.34" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.18" depart="90.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="156.90" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.92" duration="66.90" routeLength="300.86" waitingTime="35.50" waitingCount="1" stopTime="0.00" timeLoss="46.09" rerouteNo="1" devices="tripinfo_flow_south_to_west.18 routing_flow_south_to_west.18 emissions_flow_south_to_west.18" vType="DEFAULT_VEHTYPE" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="690.31" CO2_abs="176273.10" HC_abs="4.57" PMx_abs="7.45" NOx_abs="60.40" fuel_abs="57145.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.19" depart="95.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="158.50" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="13.23" duration="63.50" routeLength="306.10" waitingTime="30.60" waitingCount="1" stopTime="0.00" timeLoss="39.72" rerouteNo="1" devices="tripinfo_flow_south_to_west.19 routing_flow_south_to_west.19 emissions_flow_south_to_west.19" vType="DEFAULT_VEHTYPE" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="563.59" CO2_abs="160240.65" HC_abs="3.73" PMx_abs="7.22" NOx_abs="54.24" fuel_abs="51947.80" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.20" depart="100.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="159.60" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.32" duration="59.60" routeLength="295.61" waitingTime="22.90" waitingCount="1" stopTime="0.00" timeLoss="38.35" rerouteNo="1" devices="tripinfo_flow_south_to_west.20 routing_flow_south_to_west.20 emissions_flow_south_to_west.20" vType="DEFAULT_VEHTYPE" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="592.32" CO2_abs="153218.40" HC_abs="3.92" PMx_abs="6.93" NOx_abs="51.26" fuel_abs="49671.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.21" depart="105.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="159.80" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.85" duration="54.80" routeLength="300.86" waitingTime="17.90" waitingCount="1" stopTime="0.00" timeLoss="32.31" rerouteNo="1" devices="tripinfo_flow_south_to_west.21 routing_flow_south_to_west.21 emissions_flow_south_to_west.21" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="547.30" CO2_abs="141733.20" HC_abs="3.62" PMx_abs="6.98" NOx_abs="46.94" fuel_abs="45947.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.24" depart="120.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="161.30" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.97" duration="41.30" routeLength="300.86" waitingTime="4.10" waitingCount="1" stopTime="0.00" timeLoss="20.66" rerouteNo="1" devices="tripinfo_flow_south_to_west.24 routing_flow_south_to_west.24 emissions_flow_south_to_west.24" vType="DEFAULT_VEHTYPE" speedFactor="1.17" vaporized="">
+        <emissions CO_abs="564.32" CO2_abs="121614.17" HC_abs="3.74" PMx_abs="6.93" NOx_abs="38.89" fuel_abs="39425.33" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.22" depart="110.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="162.10" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="12.45" duration="52.10" routeLength="306.10" waitingTime="14.10" waitingCount="1" stopTime="0.00" timeLoss="26.80" rerouteNo="1" devices="tripinfo_flow_south_to_west.22 routing_flow_south_to_west.22 emissions_flow_south_to_west.22" vType="DEFAULT_VEHTYPE" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="433.33" CO2_abs="124819.22" HC_abs="2.87" PMx_abs="6.55" NOx_abs="40.88" fuel_abs="40464.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.25" depart="125.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="163.60" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="13.86" duration="38.60" routeLength="306.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.92" rerouteNo="1" devices="tripinfo_flow_south_to_west.25 routing_flow_south_to_west.25 emissions_flow_south_to_west.25" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="478.63" CO2_abs="109144.82" HC_abs="3.17" PMx_abs="6.79" NOx_abs="34.33" fuel_abs="35382.94" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.23" depart="115.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="163.80" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="11.82" duration="48.80" routeLength="295.61" waitingTime="9.10" waitingCount="1" stopTime="0.00" timeLoss="22.98" rerouteNo="1" devices="tripinfo_flow_south_to_west.23 routing_flow_south_to_west.23 emissions_flow_south_to_west.23" vType="DEFAULT_VEHTYPE" speedFactor="0.85" vaporized="">
+        <emissions CO_abs="395.69" CO2_abs="116973.32" HC_abs="2.62" PMx_abs="6.06" NOx_abs="37.33" fuel_abs="37920.94" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.27" depart="135.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="163.90" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.18" duration="28.90" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.93" rerouteNo="1" devices="tripinfo_flow_south_to_west.27 routing_flow_south_to_west.27 emissions_flow_south_to_west.27" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="523.57" CO2_abs="95404.11" HC_abs="3.47" PMx_abs="6.90" NOx_abs="30.86" fuel_abs="30928.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.26" depart="130.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="165.30" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="13.76" duration="35.30" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.20" rerouteNo="1" devices="tripinfo_flow_south_to_west.26 routing_flow_south_to_west.26 emissions_flow_south_to_west.26" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="427.28" CO2_abs="98012.39" HC_abs="2.83" PMx_abs="6.28" NOx_abs="30.70" fuel_abs="31774.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.28" depart="140.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="168.10" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="13.36" duration="28.10" routeLength="306.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.61" rerouteNo="1" devices="tripinfo_flow_south_to_west.28 routing_flow_south_to_west.28 emissions_flow_south_to_west.28" vType="DEFAULT_VEHTYPE" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="485.66" CO2_abs="90064.23" HC_abs="3.23" PMx_abs="6.93" NOx_abs="29.20" fuel_abs="29197.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.3" depart="150.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="169.40" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="13.58" duration="19.40" routeLength="197.42" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.39" rerouteNo="0" devices="tripinfo_flow_south_to_east.3 routing_flow_south_to_east.3 emissions_flow_south_to_east.3" vType="DEFAULT_VEHTYPE" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="401.72" CO2_abs="74213.70" HC_abs="2.66" PMx_abs="4.86" NOx_abs="23.51" fuel_abs="24058.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.29" depart="145.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="172.30" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.00" duration="27.30" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.59" rerouteNo="1" devices="tripinfo_flow_south_to_west.29 routing_flow_south_to_west.29 emissions_flow_south_to_west.29" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="521.80" CO2_abs="93990.63" HC_abs="3.47" PMx_abs="7.17" NOx_abs="30.52" fuel_abs="30470.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.30" depart="150.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="178.50" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.01" duration="28.50" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.53" rerouteNo="1" devices="tripinfo_flow_south_to_west.30 routing_flow_south_to_west.30 emissions_flow_south_to_west.30" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="451.93" CO2_abs="87706.24" HC_abs="3.00" PMx_abs="6.69" NOx_abs="28.30" fuel_abs="28432.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.31" depart="155.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="183.80" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.61" duration="28.80" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.70" rerouteNo="1" devices="tripinfo_flow_south_to_west.31 routing_flow_south_to_west.31 emissions_flow_south_to_west.31" vType="DEFAULT_VEHTYPE" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="422.04" CO2_abs="87835.02" HC_abs="2.80" PMx_abs="6.81" NOx_abs="28.18" fuel_abs="28474.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.32" depart="160.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="186.80" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.32" duration="26.80" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.21" rerouteNo="1" devices="tripinfo_flow_south_to_west.32 routing_flow_south_to_west.32 emissions_flow_south_to_west.32" vType="DEFAULT_VEHTYPE" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="561.99" CO2_abs="95230.11" HC_abs="3.73" PMx_abs="7.20" NOx_abs="31.15" fuel_abs="30872.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.33" depart="165.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="192.90" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="13.39" duration="27.90" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.17" rerouteNo="1" devices="tripinfo_flow_south_to_west.33 routing_flow_south_to_west.33 emissions_flow_south_to_west.33" vType="DEFAULT_VEHTYPE" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="483.94" CO2_abs="91042.76" HC_abs="3.21" PMx_abs="6.84" NOx_abs="29.37" fuel_abs="29514.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.34" depart="170.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="198.50" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="12.94" duration="28.50" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.54" rerouteNo="1" devices="tripinfo_flow_south_to_west.34 routing_flow_south_to_west.34 emissions_flow_south_to_west.34" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="444.32" CO2_abs="88276.42" HC_abs="2.95" PMx_abs="7.06" NOx_abs="28.54" fuel_abs="28617.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.14" depart="140.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="201.30" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="14.98" duration="61.30" routeLength="347.59" waitingTime="27.50" waitingCount="1" stopTime="0.00" timeLoss="37.42" rerouteNo="1" devices="tripinfo_flow_west_to_north.14 routing_flow_west_to_north.14 emissions_flow_west_to_north.14" vType="DEFAULT_VEHTYPE" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="779.72" CO2_abs="172122.41" HC_abs="5.17" PMx_abs="8.67" NOx_abs="58.83" fuel_abs="55799.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.13" depart="130.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="201.40" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.97" duration="71.40" routeLength="342.46" waitingTime="37.40" waitingCount="1" stopTime="0.00" timeLoss="47.95" rerouteNo="1" devices="tripinfo_flow_west_to_north.13 routing_flow_west_to_north.13 emissions_flow_west_to_north.13" vType="DEFAULT_VEHTYPE" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="799.04" CO2_abs="190578.70" HC_abs="5.29" PMx_abs="8.57" NOx_abs="65.80" fuel_abs="61783.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.16" depart="160.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="204.00" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="14.14" duration="44.00" routeLength="347.59" waitingTime="4.60" waitingCount="1" stopTime="0.00" timeLoss="18.70" rerouteNo="1" devices="tripinfo_flow_west_to_north.16 routing_flow_west_to_north.16 emissions_flow_west_to_north.16" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="665.94" CO2_abs="131075.39" HC_abs="4.41" PMx_abs="7.83" NOx_abs="42.48" fuel_abs="42492.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.15" depart="150.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="205.70" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="12.57" duration="55.70" routeLength="342.46" waitingTime="14.20" waitingCount="1" stopTime="0.00" timeLoss="27.59" rerouteNo="1" devices="tripinfo_flow_west_to_north.15 routing_flow_west_to_north.15 emissions_flow_west_to_north.15" vType="DEFAULT_VEHTYPE" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="526.42" CO2_abs="138735.68" HC_abs="3.49" PMx_abs="7.38" NOx_abs="45.43" fuel_abs="44976.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.17" depart="170.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="207.90" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="13.18" duration="37.90" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.24" rerouteNo="1" devices="tripinfo_flow_west_to_north.17 routing_flow_west_to_north.17 emissions_flow_west_to_north.17" vType="DEFAULT_VEHTYPE" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="534.16" CO2_abs="113190.26" HC_abs="3.54" PMx_abs="7.62" NOx_abs="35.86" fuel_abs="36694.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.18" depart="180.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="210.10" arrivalLane="node3_6_sw_2" arrivalPos="89.77" arrivalSpeed="13.98" duration="30.10" routeLength="347.59" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.50" rerouteNo="1" devices="tripinfo_flow_west_to_north.18 routing_flow_west_to_north.18 emissions_flow_west_to_north.18" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="549.44" CO2_abs="96965.63" HC_abs="3.66" PMx_abs="8.37" NOx_abs="32.08" fuel_abs="31434.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.12" depart="122.30" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="2.30" arrival="211.20" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.00" duration="88.90" routeLength="415.27" waitingTime="45.00" waitingCount="1" stopTime="0.00" timeLoss="57.50" rerouteNo="1" devices="tripinfo_flow_west_to_south.12 routing_flow_west_to_south.12 emissions_flow_west_to_south.12" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="880.57" CO2_abs="230043.05" HC_abs="5.83" PMx_abs="10.14" NOx_abs="78.72" fuel_abs="74576.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.14" depart="140.30" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.30" arrival="213.00" arrivalLane="node1_4_nw_1" arrivalPos="90.19" arrivalSpeed="14.89" duration="72.70" routeLength="425.67" waitingTime="25.10" waitingCount="1" stopTime="0.00" timeLoss="42.27" rerouteNo="1" devices="tripinfo_flow_west_to_south.14 routing_flow_west_to_south.14 emissions_flow_west_to_south.14" vType="DEFAULT_VEHTYPE" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="967.84" CO2_abs="205102.33" HC_abs="6.40" PMx_abs="10.29" NOx_abs="69.41" fuel_abs="66491.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.13" depart="130.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="215.70" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="12.45" duration="85.70" routeLength="415.27" waitingTime="34.20" waitingCount="1" stopTime="0.00" timeLoss="50.28" rerouteNo="1" devices="tripinfo_flow_west_to_south.13 routing_flow_west_to_south.13 emissions_flow_west_to_south.13" vType="DEFAULT_VEHTYPE" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="635.23" CO2_abs="196148.85" HC_abs="4.20" PMx_abs="8.66" NOx_abs="65.86" fuel_abs="63588.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.16" depart="160.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="218.10" arrivalLane="node1_4_nw_1" arrivalPos="90.19" arrivalSpeed="14.08" duration="58.10" routeLength="425.67" waitingTime="7.50" waitingCount="1" stopTime="0.00" timeLoss="26.01" rerouteNo="1" devices="tripinfo_flow_west_to_south.16 routing_flow_west_to_south.16 emissions_flow_west_to_south.16" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="844.62" CO2_abs="172523.88" HC_abs="5.59" PMx_abs="9.83" NOx_abs="56.31" fuel_abs="55929.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.15" depart="150.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="219.80" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="12.18" duration="69.80" routeLength="415.27" waitingTime="16.30" waitingCount="1" stopTime="0.00" timeLoss="33.72" rerouteNo="1" devices="tripinfo_flow_west_to_south.15 routing_flow_west_to_south.15 emissions_flow_west_to_south.15" vType="DEFAULT_VEHTYPE" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="606.71" CO2_abs="171198.68" HC_abs="4.02" PMx_abs="8.85" NOx_abs="55.53" fuel_abs="55500.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.19" depart="190.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="220.10" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.08" duration="30.10" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.11" rerouteNo="1" devices="tripinfo_flow_west_to_north.19 routing_flow_west_to_north.19 emissions_flow_west_to_north.19" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="588.23" CO2_abs="100268.47" HC_abs="3.91" PMx_abs="7.87" NOx_abs="32.95" fuel_abs="32505.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.17" depart="170.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="220.60" arrivalLane="node1_4_nw_2" arrivalPos="90.19" arrivalSpeed="14.63" duration="50.60" routeLength="425.58" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="19.33" rerouteNo="1" devices="tripinfo_flow_west_to_south.17 routing_flow_west_to_south.17 emissions_flow_west_to_south.17" vType="DEFAULT_VEHTYPE" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="831.21" CO2_abs="157451.00" HC_abs="5.49" PMx_abs="9.36" NOx_abs="50.41" fuel_abs="51043.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.18" depart="180.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="223.60" arrivalLane="node1_4_nw_1" arrivalPos="90.19" arrivalSpeed="13.62" duration="43.60" routeLength="425.67" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.11" rerouteNo="1" devices="tripinfo_flow_west_to_south.18 routing_flow_west_to_south.18 emissions_flow_west_to_south.18" vType="DEFAULT_VEHTYPE" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="778.89" CO2_abs="142623.44" HC_abs="5.15" PMx_abs="9.42" NOx_abs="45.85" fuel_abs="46236.22" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.20" depart="200.00" departLane="node1_2_eb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="229.40" arrivalLane="node3_6_sw_1" arrivalPos="89.77" arrivalSpeed="14.47" duration="29.40" routeLength="342.46" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.11" rerouteNo="1" devices="tripinfo_flow_west_to_north.20 routing_flow_west_to_north.20 emissions_flow_west_to_north.20" vType="DEFAULT_VEHTYPE" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="601.51" CO2_abs="100867.38" HC_abs="4.00" PMx_abs="8.21" NOx_abs="33.24" fuel_abs="32699.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.19" depart="190.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="231.40" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="13.76" duration="41.40" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.49" rerouteNo="1" devices="tripinfo_flow_west_to_south.19 routing_flow_west_to_south.19 emissions_flow_west_to_south.19" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="834.63" CO2_abs="148467.98" HC_abs="5.53" PMx_abs="9.91" NOx_abs="47.77" fuel_abs="48130.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.4" depart="200.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="240.50" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="14.89" duration="40.50" routeLength="197.42" waitingTime="14.10" waitingCount="1" stopTime="0.00" timeLoss="26.91" rerouteNo="0" devices="tripinfo_flow_south_to_east.4 routing_flow_south_to_east.4 emissions_flow_south_to_east.4" vType="DEFAULT_VEHTYPE" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="387.01" CO2_abs="104920.21" HC_abs="2.57" PMx_abs="4.84" NOx_abs="34.52" fuel_abs="34013.54" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.20" depart="200.00" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="241.00" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="13.85" duration="41.00" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.24" rerouteNo="1" devices="tripinfo_flow_west_to_south.20 routing_flow_west_to_south.20 emissions_flow_west_to_south.20" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="841.92" CO2_abs="148163.18" HC_abs="5.57" PMx_abs="9.85" NOx_abs="47.67" fuel_abs="48032.08" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_north.21" depart="210.00" departLane="node1_2_eb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="243.40" arrivalLane="node3_6_sw_0" arrivalPos="89.77" arrivalSpeed="12.34" duration="33.40" routeLength="337.33" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.66" rerouteNo="1" devices="tripinfo_flow_west_to_north.21 routing_flow_west_to_north.21 emissions_flow_west_to_north.21" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="432.81" CO2_abs="94220.66" HC_abs="2.88" PMx_abs="7.30" NOx_abs="30.06" fuel_abs="30544.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.37" depart="185.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="247.00" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="14.96" duration="62.00" routeLength="306.10" waitingTime="30.60" waitingCount="1" stopTime="0.00" timeLoss="40.95" rerouteNo="1" devices="tripinfo_flow_south_to_west.37 routing_flow_south_to_west.37 emissions_flow_south_to_west.37" vType="DEFAULT_VEHTYPE" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="704.24" CO2_abs="169723.26" HC_abs="4.66" PMx_abs="7.61" NOx_abs="57.79" fuel_abs="55021.87" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.36" depart="180.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="247.40" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.26" duration="67.40" routeLength="300.86" waitingTime="35.60" waitingCount="1" stopTime="0.00" timeLoss="45.64" rerouteNo="1" devices="tripinfo_flow_south_to_west.36 routing_flow_south_to_west.36 emissions_flow_south_to_west.36" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="640.38" CO2_abs="172757.21" HC_abs="4.24" PMx_abs="7.28" NOx_abs="59.13" fuel_abs="56005.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.35" depart="175.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="247.90" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="13.66" duration="72.90" routeLength="295.61" waitingTime="40.60" waitingCount="1" stopTime="0.00" timeLoss="50.50" rerouteNo="1" devices="tripinfo_flow_south_to_west.35 routing_flow_south_to_west.35 emissions_flow_south_to_west.35" vType="DEFAULT_VEHTYPE" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="590.87" CO2_abs="178369.76" HC_abs="3.91" PMx_abs="7.20" NOx_abs="61.21" fuel_abs="57825.11" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.38" depart="190.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="249.50" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.27" duration="59.50" routeLength="300.86" waitingTime="22.90" waitingCount="1" stopTime="0.00" timeLoss="37.84" rerouteNo="1" devices="tripinfo_flow_south_to_west.38 routing_flow_south_to_west.38 emissions_flow_south_to_west.38" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="551.72" CO2_abs="148866.60" HC_abs="3.65" PMx_abs="7.08" NOx_abs="49.92" fuel_abs="48260.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.40" depart="200.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="250.30" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="13.49" duration="50.30" routeLength="295.61" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="27.74" rerouteNo="1" devices="tripinfo_flow_south_to_west.40 routing_flow_south_to_west.40 emissions_flow_south_to_west.40" vType="DEFAULT_VEHTYPE" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="506.89" CO2_abs="130071.40" HC_abs="3.36" PMx_abs="6.51" NOx_abs="42.28" fuel_abs="42167.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.39" depart="195.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="250.40" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="13.41" duration="55.40" routeLength="306.10" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="31.78" rerouteNo="1" devices="tripinfo_flow_south_to_west.39 routing_flow_south_to_west.39 emissions_flow_south_to_west.39" vType="DEFAULT_VEHTYPE" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="527.95" CO2_abs="140892.88" HC_abs="3.50" PMx_abs="7.04" NOx_abs="46.61" fuel_abs="45675.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.41" depart="205.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="252.00" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.89" duration="47.00" routeLength="300.86" waitingTime="9.10" waitingCount="1" stopTime="0.00" timeLoss="24.70" rerouteNo="1" devices="tripinfo_flow_south_to_west.41 routing_flow_south_to_west.41 emissions_flow_south_to_west.41" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="505.13" CO2_abs="125349.72" HC_abs="3.35" PMx_abs="6.79" NOx_abs="40.52" fuel_abs="40636.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_west_to_south.21" depart="211.20" departLane="node1_2_eb_0" departPos="5.10" departSpeed="0.00" departDelay="1.20" arrival="252.10" arrivalLane="node1_4_nw_0" arrivalPos="90.19" arrivalSpeed="14.06" duration="40.90" routeLength="415.27" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.58" rerouteNo="1" devices="tripinfo_flow_west_to_south.21 routing_flow_west_to_south.21 emissions_flow_west_to_south.21" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="875.44" CO2_abs="150837.79" HC_abs="5.79" PMx_abs="9.92" NOx_abs="48.67" fuel_abs="48899.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.42" depart="210.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="252.20" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.09" duration="42.20" routeLength="295.61" waitingTime="4.10" waitingCount="1" stopTime="0.00" timeLoss="20.64" rerouteNo="1" devices="tripinfo_flow_south_to_west.42 routing_flow_south_to_west.42 emissions_flow_south_to_west.42" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="485.75" CO2_abs="115574.62" HC_abs="3.22" PMx_abs="6.63" NOx_abs="36.67" fuel_abs="37467.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.45" depart="225.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="254.60" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="13.96" duration="29.60" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.82" rerouteNo="1" devices="tripinfo_flow_south_to_west.45 routing_flow_south_to_west.45 emissions_flow_south_to_west.45" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="479.06" CO2_abs="90506.28" HC_abs="3.18" PMx_abs="6.37" NOx_abs="29.09" fuel_abs="29340.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.44" depart="220.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="255.00" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="12.71" duration="35.00" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.61" rerouteNo="1" devices="tripinfo_flow_south_to_west.44 routing_flow_south_to_west.44 emissions_flow_south_to_west.44" vType="DEFAULT_VEHTYPE" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="414.02" CO2_abs="97332.92" HC_abs="2.74" PMx_abs="6.34" NOx_abs="30.42" fuel_abs="31553.75" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.43" depart="215.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="255.10" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="11.55" duration="40.10" routeLength="306.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.77" rerouteNo="1" devices="tripinfo_flow_south_to_west.43 routing_flow_south_to_west.43 emissions_flow_south_to_west.43" vType="DEFAULT_VEHTYPE" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="383.67" CO2_abs="102760.20" HC_abs="2.54" PMx_abs="6.52" NOx_abs="32.00" fuel_abs="33313.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.46" depart="230.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="259.20" arrivalLane="node4_5_wb_2" arrivalPos="114.84" arrivalSpeed="12.51" duration="29.20" routeLength="306.10" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.08" rerouteNo="1" devices="tripinfo_flow_south_to_west.46 routing_flow_south_to_west.46 emissions_flow_south_to_west.46" vType="DEFAULT_VEHTYPE" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="415.05" CO2_abs="86046.81" HC_abs="2.76" PMx_abs="6.94" NOx_abs="27.80" fuel_abs="27895.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.47" depart="235.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="261.40" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="14.72" duration="26.40" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.69" rerouteNo="1" devices="tripinfo_flow_south_to_west.47 routing_flow_south_to_west.47 emissions_flow_south_to_west.47" vType="DEFAULT_VEHTYPE" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="587.68" CO2_abs="96940.25" HC_abs="3.90" PMx_abs="7.06" NOx_abs="31.65" fuel_abs="31426.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.48" depart="240.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="268.10" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="13.22" duration="28.10" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.62" rerouteNo="1" devices="tripinfo_flow_south_to_west.48 routing_flow_south_to_west.48 emissions_flow_south_to_west.48" vType="DEFAULT_VEHTYPE" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="473.34" CO2_abs="88591.86" HC_abs="3.14" PMx_abs="6.68" NOx_abs="28.67" fuel_abs="28720.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_east.5" depart="250.00" departLane="node2_7_sb_2" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="268.70" arrivalLane="node2_3_eb_2" arrivalPos="109.88" arrivalSpeed="14.87" duration="18.70" routeLength="197.42" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.84" rerouteNo="0" devices="tripinfo_flow_south_to_east.5 routing_flow_south_to_east.5 emissions_flow_south_to_east.5" vType="DEFAULT_VEHTYPE" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="461.13" CO2_abs="78502.69" HC_abs="3.05" PMx_abs="5.20" NOx_abs="25.13" fuel_abs="25449.24" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.49" depart="245.00" departLane="node2_7_sb_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="274.30" arrivalLane="node4_5_wb_0" arrivalPos="114.84" arrivalSpeed="12.33" duration="29.30" routeLength="295.61" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.59" rerouteNo="1" devices="tripinfo_flow_south_to_west.49 routing_flow_south_to_west.49 emissions_flow_south_to_west.49" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="403.53" CO2_abs="86537.98" HC_abs="2.68" PMx_abs="6.72" NOx_abs="27.65" fuel_abs="28054.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="flow_south_to_west.50" depart="250.00" departLane="node2_7_sb_1" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="277.10" arrivalLane="node4_5_wb_1" arrivalPos="114.84" arrivalSpeed="14.06" duration="27.10" routeLength="300.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.91" rerouteNo="1" devices="tripinfo_flow_south_to_west.50 routing_flow_south_to_west.50 emissions_flow_south_to_west.50" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="520.46" CO2_abs="93000.34" HC_abs="3.46" PMx_abs="7.37" NOx_abs="30.30" fuel_abs="30149.23" electricity_abs="0.00"/>
+    </tripinfo>
+</tripinfos>

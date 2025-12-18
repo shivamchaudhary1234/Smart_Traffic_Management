@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-25 18:13:36 by Eclipse SUMO GUI Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/happy/sumo_projects/test/rl.net.xml"/>
+        <route-files value="/home/happy/sumo_projects/test/rl.rou.xml"/>
+        <additional-files value="/home/happy/sumo_projects/test/rl.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/home/happy/sumo_projects/test/emission_rl.xml"/>
+        <queue-output value="/home/happy/sumo_projects/test/queue_rl.xml"/>
+        <summary-output value="/home/happy/sumo_projects/test/summary_rl.xml"/>
+        <tripinfo-output value="/home/happy/sumo_projects/test/tripinfo_rl.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.10"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="37537"/>
+    </traci_server>
+
+    <gui_only>
+        <delay value="100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="13.60" id="node2_7_sb_0" sampledSeconds="1.93" nVehEntered="1" nVehLeft="1" nVehSeen="1" meanSpeed="12.93" meanTimeLoss="0.02" meanOccupancy="2.84" maxOccupancy="25.00" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="0.15" maxVehicleNumber="1" />
+</detector>

@@ -1,0 +1,15 @@
+<net>
+    <nodes>
+        <node id="n0" x="0" y="0" type="priority"/>
+        <node id="n1" x="100" y="0" type="traffic_light"/> <!-- traffic light here -->
+        <node id="n2" x="100" y="100" type="priority"/>
+    </nodes>
+
+    <edges>
+        <!-- Horizontal road -->
+        <edge id="e0" from="n0" to="n1" priority="1" numLanes="1" speed="10"/>
+        <!-- Vertical road -->
+        <edge id="e1" from="n2" to="n1" priority="1" numLanes="1" speed="10"/>
+    </edges>
+</net>
+
